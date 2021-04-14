@@ -1,0 +1,10 @@
+﻿@model MovieRatingApp.Web.Models.DTOs.AuthDTO
+
+<h1>Register</h1>
+<form method="post" asp-action="Register">
+    <div class="form-group">
+        <input class="form-control" type="text" asp-for="Username" placeholder="Email" />
+        <input class="form-control" type="password" asp-for="Password" placeholder="Password" />
+        <button type="submit" class="btn btn-success">Register</button>
+    </div>
+</form>
